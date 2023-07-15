@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    margin: 10px;
+    padding: 0;;
+}
+.container{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.pad{
+    width: 960px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid{
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+.item{
+    height: 50px;
+    flex:1;
+    border:2px solid black
+}
+.interface{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+.size {
+    cursor: pointer;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding :10px 15px;
+}
+.size:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
